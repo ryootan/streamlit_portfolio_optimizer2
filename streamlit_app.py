@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 from io import StringIO
-# from pypfopt.efficient_frontier import EfficientFrontier
+from pypfopt.efficient_frontier import EfficientFrontier
 
 st.subheader("Input")
 uploaded_file = st.file_uploader("Choose a file")
